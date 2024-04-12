@@ -16,11 +16,13 @@
         }
 
         body {
-            background-image: url(delivewry.jpg);
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-size: cover;
-            font-family:Arial, Helvetica, sans-serif
+            background: rgba(0, 0, 0, 0.7) url('food.jpg') center center fixed;
+    background-size: cover;
+    background-blend-mode:darken;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration-color: black;
+    background-image: url(delivewry.jpg);
+    color:wheat;
             
         }
 
@@ -52,46 +54,52 @@
     
        
         input{
-            border-radius: 5px;
-            height: 30px;
-            background-color: rgb(19, 9, 1);
-            text-decoration-color: aqua;
-            font-size: o.9cap;
-            color: #a5e10d;
-            width: 55cap;
-        }
+            width: 500px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 3px solid #ff7200;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+    text-align: center;
+}
+        
         ::placeholder{
             text-align: center;
             forced-color-adjust: dark;
-            text-decoration-color: rgb(200, 120, 83);
+            text-decoration-color: rgb(255, 255, 255);
             font-size: 2cap;
            
         }
         button:hover{
-            background-color: #a2dc0d;
-            transition-delay: 0s;
-            animation-duration: 0s;
-            scale: 1.2;
+            background: #ff7200;
+    color: black;
+    font-weight: bolder;
+    scale: 1.2;
         }
         a{
             text-decoration: none;
         }
     
         button{
+            width:250px;
+            height: 40px;
+    background: wheat;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color:  #ff7200;;
+   
+    text-align: center;
+    
            
-            border-color: #f7f310;
-            border-radius: 3cap;
-            size: 3cap;
-            width: 20cap;
-            background: transparent;
-            text-decoration-color: #e6e607;
-            background-color: #a2dc0d;
-            
-          height: 39px;
-          scroll-behavior: smooth;
-          text-shadow: #a5e10d;
-        text-overflow: ellipsis;
-        direction: rtl;
         }
         
 
@@ -136,6 +144,7 @@
   
 }
  </style>
+ <title>ORDER NOW</title>
 </head>
 <body>
     
@@ -176,7 +185,7 @@
        
         
         <button id="submit"><div class="popup" onclick="myFunction()" text size="2cap"> <B>ORDER</B>
-            <span class="popuptext" id="myPopup"><B>SUCCESSFULLY ORDERED</B></span>
+            <span class="popuptext" id="myPopup"><B>SUCCESSFULLY ORDERED <a href="bb.htm">Enter</a></B></span>
           </div></a></button>
         
     </button>
